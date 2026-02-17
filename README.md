@@ -1,30 +1,233 @@
-# Enterprise Contract Intelligence System (PoC)
+# Contract Intelligence MCP Server (RAG + Guardrails + Multi-Tenant)
 
-This repository is a PoC for:
-- Multi-tenant RBAC + tenant isolation
-- AI guardrails (PII redaction, prompt-injection blocking, citation verification, toxicity filtering)
-- MCP server exposing contract analysis tools
-- Self-hosted LLM + vector DB infrastructure
+## Overview
 
-## Quickstart (local)
-1. Copy env:
-   - `cp .env.example .env`
-2. Start services:
-   - `docker compose up -d`
-3. Run API locally (optional if you prefer container):
-   - `cd api && python -m venv .venv && source .venv/bin/activate`
-   - `pip install -r requirements.txt`
-   - `uvicorn app.main:app --reload --port 8000`
+This project implements a **multi-tenant contract intelligence system** exposing an **MCP-compatible JSON-RPC API**.
 
-API docs: `http://localhost:8000/docs`
+It supports:
 
-## Repo layout
-- `api/` FastAPI app (auth, RBAC, guardrails, RAG)
-- `mcp_server/` MCP JSON-RPC server exposing 6 tools
-- `infra/` docker compose, configs
-- `docs/` architecture + API examples
-- `tests/` RBAC + guardrails test cases
-- `data/` sample tenant contracts and extracted text (PoC)
+* Semantic contract search (Qdrant)
+* Retrieval-augmented answers with citations
+* Clause extraction and comparison
+* Metadata extraction
+* Risk scoring
+* Expiring contract detection
+* Prompt-injection protection
+* PII redaction
+* Tenant isolation + RBAC enforcement
 
-## Notes
-- This is scaffolding with placeholders. Fill in implementation incrementally.
+The system is designed as a **secure contract analysis backend** suitable for enterprise environments.
+
+---
+
+## Architecture
+
+**Core Components**
+
+* FastAPI backend (API + MCP endpoint)
+* Qdrant vector database
+* Ollama local LLM (Qwen + embedding model)
+* Seeded contract dataset
+* Guardrails layer (input/output protection)
+
+---
+
+## Features
+
+### Multi-Tenant Security
+
+* JWT authentication
+* Organization-scoped document access
+* Viewer role cannot use AI or search
+* Cross-tenant data access blocked
+
+---
+
+### Guardrails
+
+* Prompt injection detection
+* Input PII redaction
+* Output PII scanning
+* Moderation filter
+
+---
+
+### Retrieval-Augmented Generation
+
+Contracts are:
+
+1. Chunked
+2. Embedded
+3. Stored in Qdrant
+
+Queries:
+
+1. Retrieve top semantic matches
+2. Build context
+3. Generate answer using Ollama
+4. Return citations
+
+---
+
+## MCP JSON-RPC Endpoint
+
+```
+POST /mcp
+```
+
+Supported methods:
+
+* initialize
+* tools/list
+* tools/call
+
+---
+
+## Available Tools
+
+| Tool                    | Description                             |
+| ----------------------- | --------------------------------------- |
+| search_contracts        | Semantic search across contracts        |
+| ask_contracts           | Ask questions with RAG + citations      |
+| extract_clause          | Extract specific clause text            |
+| compare_clauses         | Compare clauses across contracts        |
+| extract_metadata        | Extract contract metadata               |
+| calculate_risk_score    | Compute deterministic risk score        |
+| find_expiring_contracts | Detect contracts expiring in date range |
+
+---
+
+## How To Run
+
+### 1. Start services
+
+```
+docker compose up --build
+```
+
+---
+
+### 2. Seed database (users + contracts)
+
+```
+docker exec -it project-api-1 python /app/app/db/seed_docs.py
+```
+
+---
+
+### 3. Ingest contracts into Qdrant
+
+```
+docker exec -it -e PYTHONPATH=/app project-api-1 python /app/app/ingest/ingest_all.py
+```
+
+---
+
+### 4. Verify API
+
+```
+curl http://localhost:8000/health
+```
+
+---
+
+## Login Example
+
+```
+curl -X POST http://localhost:8000/auth/login \
+-H "Content-Type: application/json" \
+-d '{"email":"bob@techcorp.com","password":"Bob@123"}'
+```
+
+Use returned token for Authorization header.
+
+---
+
+## Example MCP Call
+
+```
+curl -X POST http://localhost:8000/mcp \
+-H "Authorization: Bearer TOKEN" \
+-H "Content-Type: application/json" \
+-d '{"jsonrpc":"2.0","id":1,"method":"tools/list"}'
+```
+
+---
+
+## Repository Structure
+
+```
+api/app/
+ ├── routers/
+ ├── services/
+ ├── guardrails/
+ ├── security/
+ ├── ingest/
+ ├── rag/
+
+data/
+ ├── contracts/
+ ├── seed/
+
+docs/
+tests/
+```
+
+---
+
+## Security Model
+
+### Authentication
+
+JWT tokens required.
+
+### Authorization
+
+Role based:
+
+* admin → full access
+* analyst → AI + search allowed
+* viewer → read metadata only
+
+### Tenant Isolation
+
+Every contract belongs to an organization.
+
+All retrieval queries filter by:
+
+```
+organization_id
+```
+
+---
+
+## Known Limitations
+
+* Clause extraction uses semantic heuristics (not structured parsing)
+* Expiry detection assumes 1-year term if missing
+* Compare tool may be slow depending on model size
+* No streaming responses
+
+---
+
+## Technology Stack
+
+* FastAPI
+* Python
+* Qdrant
+* Ollama
+* Docker
+* JSON-RPC 2.0
+
+---
+
+## Purpose
+
+This project demonstrates:
+
+* Secure enterprise RAG architecture
+* MCP protocol implementation
+* LLM guardrail integration
+* Multi-tenant contract intelligence backend
+
+---
