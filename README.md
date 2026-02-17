@@ -99,6 +99,12 @@ Supported methods:
 
 ## How To Run
 
+### 0. Clone the repo
+
+```
+git clone https://github.com/ashu393/fortinet_assignment.git
+```
+
 ### 1. Start services
 
 ```
