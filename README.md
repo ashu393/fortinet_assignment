@@ -105,10 +105,20 @@ Supported methods:
 git clone https://github.com/ashu393/fortinet_assignment.git
 ```
 
+---
+
 ### 1. Start services
 
 ```
-docker compose up --build
+docker compose up --build -d
+```
+
+### 2. Load models into Ollama containers (LLM + Embedding models)
+
+```
+docker exec -it <ollama-container-name> ollama pull qwen2.5
+
+docker exec -it <ollama-container-name> ollama pull mxbai-embed-large
 ```
 
 ---
