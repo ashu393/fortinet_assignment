@@ -116,7 +116,7 @@ docker compose up --build -d
 ### 2. Load models into Ollama containers (LLM + Embedding models)
 
 ```
-docker exec -it <ollama-container-name> ollama pull qwen2.5
+docker exec -it <ollama-container-name> ollama pull qwen2.5:7b-instruct-q4_K_M
 
 docker exec -it <ollama-container-name> ollama pull mxbai-embed-large
 ```
@@ -185,6 +185,11 @@ BOB_TOKEN=$(curl -s -X POST http://localhost:8000/auth/login \
 echo "BOB_TOKEN loaded: " $(echo $BOB_TOKEN | cut -c1-25)"..."
 ```
 
+#### Response
+```
+BOB_TOKEN loaded:  eyJhbGciOiJIUzI1NiIsInR5c...
+```
+
 ---
 
 ### 2.Login as Charlie (viewer) + store token
@@ -196,6 +201,11 @@ CHARLIE_TOKEN=$(curl -s -X POST http://localhost:8000/auth/login \
   | python -c "import sys,json; print(json.load(sys.stdin)['access_token'])")
 
 echo "CHARLIE_TOKEN loaded: " $(echo $CHARLIE_TOKEN | cut -c1-25)"..."
+```
+
+#### Response
+```
+CHARLIE_TOKEN loaded:  eyJhbGciOiJIUzI1NiIsInR5c...
 ```
 
 ---
@@ -210,6 +220,17 @@ curl -i -s -X POST http://localhost:8000/search/contracts \
 ```
 #### Expected: 403 with "Viewers cannot search".
 
+#### Response
+```
+HTTP/1.1 403 Forbidden
+date: Tue, 17 Feb 2026 18:45:16 GMT
+server: uvicorn
+content-length: 34
+content-type: application/json
+
+{"detail":"Viewers cannot search"}%
+```
+
 ---
 
 ### 4.Viewer RBAC: viewer cannot query AI
@@ -221,6 +242,53 @@ curl -i -s -X POST http://localhost:8000/chat/query \
   -d '{"query":"What is the termination notice period?", "top_k": 3}'
 ```
 #### Expected: 403 with "Viewers cannot query AI".
+
+#### Response
+```
+HTTP/1.1 403 Forbidden
+date: Tue, 17 Feb 2026 18:45:45 GMT
+server: uvicorn
+content-length: 36
+content-type: application/json
+
+{"detail":"Viewers cannot query AI"}%   
+```
+
+---
+
+### 5.Bob semantic search across tenant contracts
+
+```
+curl -s -X POST http://localhost:8000/search/contracts \
+  -H "Authorization: Bearer ${BOB_TOKEN}" \
+  -H "Content-Type: application/json" \
+  -d '{"query":"termination notice period", "top_k": 5}' | python -m json.tool
+```
+#### Expected: results with document_id, score, snippet, citation.
+
+---
+
+### 6.Bob semantic search with contract filter
+
+```
+curl -s -X POST http://localhost:8000/search/contracts \
+  -H "Authorization: Bearer ${BOB_TOKEN}" \
+  -H "Content-Type: application/json" \
+  -d '{"query":"termination notice", "top_k": 5, "contract_id":"TC-1055"}' | python -m json.tool
+```
+
+---
+
+### 7.Bob RAG Q&A with citations
+
+```
+curl -s -X POST http://localhost:8000/chat/query \
+  -H "Authorization: Bearer ${BOB_TOKEN}" \
+  -H "Content-Type: application/json" \
+  -d '{"query":"What is the termination notice period?","contract_id":"TC-1055","top_k":5}' \
+  | python -m json.tool
+```
+#### Expected: answer + citations like
 
 
 
