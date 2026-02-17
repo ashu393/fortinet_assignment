@@ -123,7 +123,7 @@ docker exec -it <ollama-container-name> ollama pull mxbai-embed-large
 
 ---
 
-### 2. Init and Seed database (users + contracts)
+### 3. Init and Seed database (users + contracts)
 
 ```
 docker exec -it <api-container> python -m app.db.init_db
@@ -133,7 +133,7 @@ docker exec -it -e PYTHONPATH=/app <api-container> python app/db/seed_docs.py
 
 ---
 
-### 3. Ingest contracts into Qdrant
+### 4. Ingest contracts into Qdrant
 
 ```
 docker exec -it -e PYTHONPATH=/app <api-container> python /app/app/ingest/ingest_all.py
@@ -141,7 +141,7 @@ docker exec -it -e PYTHONPATH=/app <api-container> python /app/app/ingest/ingest
 
 ---
 
-### 4. Verify API
+### 5. Verify API
 
 ```
 curl http://localhost:8000/health
@@ -169,6 +169,36 @@ curl -X POST http://localhost:8000/mcp \
 -H "Content-Type: application/json" \
 -d '{"jsonrpc":"2.0","id":1,"method":"tools/list"}'
 ```
+
+---
+
+## Test Cases / Simulation
+
+### 1. Login as Bob (analyst) + store token
+
+```
+BOB_TOKEN=$(curl -s -X POST http://localhost:8000/auth/login \
+  -H "Content-Type: application/json" \
+  -d '{"email":"bob@techcorp.com","password":"Bob@123"}' \
+  | python -c "import sys,json; print(json.load(sys.stdin)['access_token'])")
+
+echo "BOB_TOKEN loaded: " $(echo $BOB_TOKEN | cut -c1-25)"..."
+```
+
+---
+
+### 2.Login as Charlie (viewer) + store token
+
+```
+CHARLIE_TOKEN=$(curl -s -X POST http://localhost:8000/auth/login \
+  -H "Content-Type: application/json" \
+  -d '{"email":"charlie@techcorp.com","password":"Charlie@123"}' \
+  | python -c "import sys,json; print(json.load(sys.stdin)['access_token'])")
+
+echo "CHARLIE_TOKEN loaded: " $(echo $CHARLIE_TOKEN | cut -c1-25)"..."
+```
+
+
 
 ---
 
