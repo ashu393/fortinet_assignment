@@ -123,10 +123,12 @@ docker exec -it <ollama-container-name> ollama pull mxbai-embed-large
 
 ---
 
-### 2. Seed database (users + contracts)
+### 2. Init and Seed database (users + contracts)
 
 ```
-docker exec -it project-api-1 python /app/app/db/seed_docs.py
+docker exec -it <api-container> python -m app.db.init_db
+
+docker exec -it -e PYTHONPATH=/app <api-container> python app/db/seed_docs.py
 ```
 
 ---
@@ -134,7 +136,7 @@ docker exec -it project-api-1 python /app/app/db/seed_docs.py
 ### 3. Ingest contracts into Qdrant
 
 ```
-docker exec -it -e PYTHONPATH=/app project-api-1 python /app/app/ingest/ingest_all.py
+docker exec -it -e PYTHONPATH=/app <api-container> python /app/app/ingest/ingest_all.py
 ```
 
 ---
