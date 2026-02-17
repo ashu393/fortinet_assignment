@@ -1,0 +1,14 @@
+{
+  "organizations": [
+    { "id": "techcorp", "name": "TechCorp Inc." },
+    { "id": "medicare", "name": "MediCare Plus" }
+  ],
+  "users": [
+    { "id": "alice", "email": "alice@techcorp.com", "role": "admin", "organization_id": "techcorp", "password": "Alice@123" },
+    { "id": "bob", "email": "bob@techcorp.com", "role": "analyst", "organization_id": "techcorp", "password": "Bob@123" },
+    { "id": "charlie", "email": "charlie@techcorp.com", "role": "viewer", "organization_id": "techcorp", "password": "Charlie@123" },
+
+    { "id": "diana", "email": "diana@medicare.com", "role": "admin", "organization_id": "medicare", "password": "Diana@123" },
+    { "id": "eve", "email": "eve@medicare.com", "role": "analyst", "organization_id": "medicare", "password": "Eve@123" }
+  ]
+}

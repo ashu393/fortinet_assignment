@@ -1,0 +1,173 @@
+
+================================================================================
+                            CONTRACT AGREEMENT
+================================================================================
+
+Contract ID: MC-2015
+Contract Title: HIPAA Business Associate Agreement
+
+This Agreement ("Agreement") is entered into as of March 1, 2024
+("Effective Date") by and between:
+
+PARTY A: MediCare Plus
+         456 Healthcare Way, Chicago, IL 60601
+
+PARTY B: HealthIT Solutions Inc.
+         111 Tech Health Blvd, Denver, CO 80201
+
+Contact Information:
+Party A Representative: Diana Martinez (d.martinez@medicareplus.com, 555-0201)
+Party B Representative: Jennifer Chang (j.chang@healthitsolutions.com, 555-0701)
+
+================================================================================
+                              RECITALS
+================================================================================
+
+WHEREAS, Party A is a Covered Entity under HIPAA and Party B will provide services that involve access to Protected Health Information (PHI), requiring compliance with HIPAA Privacy and Security Rules
+
+NOW, THEREFORE, in consideration of the mutual covenants and agreements herein
+contained, the parties agree as follows:
+
+================================================================================
+                         TERMS AND CONDITIONS
+================================================================================
+
+1. SCOPE OF SERVICES/PRODUCTS
+
+Party B shall provide electronic health record (EHR) management services including:
+- Cloud-based EHR platform hosting
+- Data backup and disaster recovery
+- System maintenance and updates
+- Technical support for clinical staff
+- HIPAA compliance monitoring and reporting
+
+Party B shall have access to PHI only as necessary to perform these services.
+
+2. TERM AND DURATION
+
+2.1 Effective Date: This Agreement shall commence on March 1, 2024
+    and shall continue until February 28, 2027 ("Initial Term").
+
+2.2 Renewal: This Agreement automatically renews for successive one-year terms unless either party provides one hundred eighty (180) days written notice of non-renewal.
+
+3. PAYMENT TERMS
+
+Party A shall pay Party B $10,000 per month for services.
+
+3.1 Total Contract Value: $360,000 USD (3-year term)
+
+3.2 Payment Schedule: Monthly payments due on the first of each month via ACH transfer.
+
+3.3 Late Payment: Any payment not received within thirty (30) days of the due
+    date shall accrue interest at the rate of 1.5% per month.
+
+4. CONFIDENTIALITY
+
+4.1 Definition: "Confidential Information" means all non-public information
+    disclosed by either party, including but not limited to business plans,
+    technical data, customer lists, and financial information.
+
+4.2 Obligations: Each party agrees to maintain the confidentiality of the other
+    party's Confidential Information and not disclose it to third parties without
+    prior written consent.
+
+4.3 Duration: Confidentiality obligations shall survive termination of this
+    Agreement for a period of five (5) years.
+
+5. INTELLECTUAL PROPERTY
+
+Party B retains all rights to its EHR platform and technology. Party A retains all rights to its patient data and PHI. Upon termination, Party B shall return or destroy all PHI as directed by Party A.
+
+6. WARRANTIES AND REPRESENTATIONS
+
+6.1 Party A Warranties: Party A warrants that it has the full right and authority
+    to enter into this Agreement and perform its obligations hereunder.
+
+6.2 Party B Warranties: Party B warrants that:
+a) It shall comply with all applicable HIPAA Privacy and Security Rule requirements
+b) It shall implement appropriate safeguards to protect PHI
+c) It shall report any security incidents or breaches within 24 hours
+d) It shall ensure its subcontractors comply with HIPAA requirements
+e) Its systems maintain SOC 2 Type II certification
+
+7. LIABILITY AND INDEMNIFICATION
+
+Party B shall be liable for any breaches of PHI resulting from its failure to implement appropriate safeguards or comply with HIPAA requirements. Party B shall indemnify Party A for regulatory fines, penalties, and reasonable costs related to such breaches.
+
+7.1 Limitation of Liability: Party B's liability for data breaches or HIPAA violations shall not be capped. For other claims unrelated to PHI breaches, liability is limited to amounts paid in the preceding twelve (12) months.
+
+7.2 Indemnification: Each party agrees to indemnify and hold harmless the other
+    party from any claims, damages, or expenses arising from its breach of this
+    Agreement or negligent acts.
+
+8. TERMINATION
+
+Either party may terminate this Agreement:
+a) For convenience by providing one hundred eighty (180) days written notice
+b) Immediately if the other party materially breaches HIPAA requirements
+c) Immediately if a data breach occurs due to Party B's gross negligence or willful misconduct
+
+Upon termination, Party B shall:
+- Return all PHI to Party A in a mutually agreed format within thirty (30) days
+- If return is infeasible, destroy all PHI and provide written certification of destruction
+- Maintain protections for PHI that Party B retains for legal/regulatory purposes
+
+8.1 Termination Notice Period: 180 days
+
+8.2 Effect of Termination: Upon termination, each party shall:
+    a) Return or destroy all Confidential Information
+    b) Pay all outstanding amounts due
+    c) Cooperate in transitioning services (if applicable)
+
+9. FORCE MAJEURE
+
+HIPAA compliance obligations and security safeguards are NOT excused by force majeure. Party B must maintain PHI protection regardless of external circumstances. If force majeure prevents service delivery for more than seven (7) days, Party A may terminate immediately.
+
+10. DISPUTE RESOLUTION
+
+10.1 Governing Law: This Agreement shall be governed by the laws of the State of Illinois and applicable federal HIPAA regulations.
+
+10.2 Dispute Resolution: Any disputes arising under this Agreement shall first be
+     attempted to be resolved through good faith negotiations. If negotiations fail,
+     disputes shall be resolved through mediation followed by binding arbitration, provided that Party A may seek immediate injunctive relief for HIPAA violations.
+
+10.3 Venue: Exclusive venue for any legal proceedings shall be in Chicago, Illinois.
+
+11. MISCELLANEOUS
+
+11.1 Entire Agreement: This Agreement constitutes the entire agreement between
+     the parties and supersedes all prior agreements and understandings.
+
+11.2 Amendments: This Agreement may only be amended in writing signed by both parties.
+
+11.3 Assignment: Neither party may assign this Agreement without the prior written
+     consent of the other party.
+
+11.4 Notices: All notices under this Agreement shall be in writing and delivered to
+     the addresses set forth above.
+
+11.5 Severability: If any provision is found to be invalid, the remaining provisions
+     shall continue in full force and effect.
+
+================================================================================
+                              SIGNATURES
+================================================================================
+
+PARTY A: MediCare Plus
+
+By: _________________________
+Name: Diana Martinez
+Title: Chief Medical Officer
+Date: March 1, 2024
+
+
+PARTY B: HealthIT Solutions Inc.
+
+By: _________________________
+Name: Jennifer Chang
+Title: Chief Compliance Officer
+Date: March 1, 2024
+
+================================================================================
+                          END OF CONTRACT
+================================================================================

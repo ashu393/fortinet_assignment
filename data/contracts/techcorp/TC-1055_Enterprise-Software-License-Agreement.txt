@@ -1,0 +1,165 @@
+
+================================================================================
+                            CONTRACT AGREEMENT
+================================================================================
+
+Contract ID: TC-1055
+Contract Title: Enterprise Software License Agreement
+
+This Agreement ("Agreement") is entered into as of February 1, 2024
+("Effective Date") by and between:
+
+PARTY A: TechCorp Inc.
+         123 Tech Plaza, San Francisco, CA 94102
+
+PARTY B: TechVendor Solutions Inc.
+         321 Software Blvd, Boston, MA 02101
+
+Contact Information:
+Party A Representative: Alice Chen (alice@techcorp.com, 555-0101)
+Party B Representative: Michael Brown (m.brown@techvendor.com, 555-0401)
+
+================================================================================
+                              RECITALS
+================================================================================
+
+WHEREAS, Party B has developed proprietary enterprise resource planning software and Party A wishes to license such software for internal business use
+
+NOW, THEREFORE, in consideration of the mutual covenants and agreements herein
+contained, the parties agree as follows:
+
+================================================================================
+                         TERMS AND CONDITIONS
+================================================================================
+
+1. SCOPE OF SERVICES/PRODUCTS
+
+Party B grants Party A a non-exclusive, non-transferable license to use the TechVendor ERP Suite v8.0 including:
+- Financial management modules
+- Human resources management system
+- Supply chain and inventory management
+- Business intelligence and reporting tools
+- Up to 500 named user licenses
+- Maintenance and support services
+- Major version upgrades during the term
+
+2. TERM AND DURATION
+
+2.1 Effective Date: This Agreement shall commence on February 1, 2024
+    and shall continue until January 31, 2027 ("Initial Term").
+
+2.2 Renewal: This Agreement shall automatically renew for additional one-year terms unless either party provides written notice of non-renewal at least ninety (90) days prior to expiration. Renewal pricing may increase by up to 5% annually.
+
+3. PAYMENT TERMS
+
+Party A shall pay Party B an annual license fee of $250,000.
+
+3.1 Total Contract Value: $750,000 USD (3-year term)
+
+3.2 Payment Schedule: Annual payments due on each anniversary of the Effective Date. First payment due upon execution of this Agreement.
+
+3.3 Late Payment: Any payment not received within thirty (30) days of the due
+    date shall accrue interest at the rate of 1.5% per month.
+
+4. CONFIDENTIALITY
+
+4.1 Definition: "Confidential Information" means all non-public information
+    disclosed by either party, including but not limited to business plans,
+    technical data, customer lists, and financial information.
+
+4.2 Obligations: Each party agrees to maintain the confidentiality of the other
+    party's Confidential Information and not disclose it to third parties without
+    prior written consent.
+
+4.3 Duration: Confidentiality obligations shall survive termination of this
+    Agreement for a period of five (5) years.
+
+5. INTELLECTUAL PROPERTY
+
+Party B retains all intellectual property rights in the software. Party A receives only the license rights explicitly granted herein and may not reverse engineer, decompile, or create derivative works.
+
+6. WARRANTIES AND REPRESENTATIONS
+
+6.1 Party A Warranties: Party A warrants that it has the full right and authority
+    to enter into this Agreement and perform its obligations hereunder.
+
+6.2 Party B Warranties: Party B warrants that: (a) the software will perform substantially in accordance with the documentation for ninety (90) days, (b) it has the right to license the software, and (c) the software does not infringe third-party intellectual property rights.
+
+7. LIABILITY AND INDEMNIFICATION
+
+EXCEPT FOR BREACHES OF CONFIDENTIALITY, INTELLECTUAL PROPERTY INFRINGEMENT, OR GROSS NEGLIGENCE, NEITHER PARTY SHALL BE LIABLE FOR INDIRECT, CONSEQUENTIAL, OR PUNITIVE DAMAGES.
+
+7.1 Limitation of Liability: Party B's total liability shall not exceed the amounts paid by Party A in the twelve (12) months preceding the claim. This limitation does not apply to intellectual property infringement claims.
+
+7.2 Indemnification: Each party agrees to indemnify and hold harmless the other
+    party from any claims, damages, or expenses arising from its breach of this
+    Agreement or negligent acts.
+
+8. TERMINATION
+
+Either party may terminate this Agreement:
+a) For convenience by providing ninety (90) days written notice
+b) Immediately for material breach if not cured within thirty (30) days of notice
+c) Immediately if the other party ceases business operations
+
+Upon termination, Party A must cease all use of the software and return or destroy all copies within thirty (30) days.
+
+8.1 Termination Notice Period: 90 days
+
+8.2 Effect of Termination: Upon termination, each party shall:
+    a) Return or destroy all Confidential Information
+    b) Pay all outstanding amounts due
+    c) Cooperate in transitioning services (if applicable)
+
+9. FORCE MAJEURE
+
+Neither party shall be liable for delays or failures in performance due to circumstances beyond its reasonable control, provided that the affected party gives prompt notice and uses reasonable efforts to resume performance. If force majeure continues for more than ninety (90) days, either party may terminate this Agreement.
+
+10. DISPUTE RESOLUTION
+
+10.1 Governing Law: This Agreement shall be governed by the laws of the Commonwealth of Massachusetts.
+
+10.2 Dispute Resolution: Any disputes arising under this Agreement shall first be
+     attempted to be resolved through good faith negotiations. If negotiations fail,
+     disputes shall be resolved through binding arbitration administered by JAMS in accordance with its Comprehensive Arbitration Rules.
+
+10.3 Venue: Exclusive venue for any legal proceedings shall be in Boston, Massachusetts.
+
+11. MISCELLANEOUS
+
+11.1 Entire Agreement: This Agreement constitutes the entire agreement between
+     the parties and supersedes all prior agreements and understandings.
+
+11.2 Amendments: This Agreement may only be amended in writing signed by both parties.
+
+11.3 Assignment: Neither party may assign this Agreement without the prior written
+     consent of the other party.
+
+11.4 Notices: All notices under this Agreement shall be in writing and delivered to
+     the addresses set forth above.
+
+11.5 Severability: If any provision is found to be invalid, the remaining provisions
+     shall continue in full force and effect.
+
+================================================================================
+                              SIGNATURES
+================================================================================
+
+PARTY A: TechCorp Inc.
+
+By: _________________________
+Name: Alice Chen
+Title: Chief Technology Officer
+Date: February 1, 2024
+
+
+PARTY B: TechVendor Solutions Inc.
+
+By: _________________________
+Name: Michael Brown
+Title: Chief Revenue Officer
+Date: February 1, 2024
+
+================================================================================
+                          END OF CONTRACT
+================================================================================

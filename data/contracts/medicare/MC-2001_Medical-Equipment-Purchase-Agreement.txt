@@ -1,0 +1,173 @@
+
+================================================================================
+                            CONTRACT AGREEMENT
+================================================================================
+
+Contract ID: MC-2001
+Contract Title: Medical Equipment Purchase Agreement
+
+This Agreement ("Agreement") is entered into as of April 1, 2024
+("Effective Date") by and between:
+
+PARTY A: MediCare Plus
+         456 Healthcare Way, Chicago, IL 60601
+
+PARTY B: MedTech Equipment Corp.
+         789 Medical Drive, Minneapolis, MN 55401
+
+Contact Information:
+Party A Representative: Dr. Diana Martinez (d.martinez@medicareplus.com, 555-0201)
+Party B Representative: Robert Lee (r.lee@medtechequip.com, 555-0601)
+
+================================================================================
+                              RECITALS
+================================================================================
+
+WHEREAS, Party A requires advanced medical imaging equipment for its facilities and Party B manufactures and sells such equipment
+
+NOW, THEREFORE, in consideration of the mutual covenants and agreements herein
+contained, the parties agree as follows:
+
+================================================================================
+                         TERMS AND CONDITIONS
+================================================================================
+
+1. SCOPE OF SERVICES/PRODUCTS
+
+Party B shall sell and deliver to Party A the following medical equipment:
+- Two (2) MRI machines - Model X-2000 3 Tesla
+- Three (3) CT scanners - Model CT-500
+- Installation and calibration services
+- Staff training (up to 40 hours)
+- One-year manufacturer's warranty
+- Optional extended warranty available
+
+2. TERM AND DURATION
+
+2.1 Effective Date: This Agreement shall commence on April 1, 2024
+    and shall continue until Perpetual (purchase agreement) ("Initial Term").
+
+2.2 Renewal: This is a purchase agreement; no renewal terms apply. However, Party A may purchase extended warranty and maintenance services under separate agreement.
+
+3. PAYMENT TERMS
+
+Party A shall pay Party B $500,000 as follows:
+- $150,000 deposit upon execution of this Agreement
+- $200,000 upon delivery and installation
+- $150,000 within thirty (30) days after successful acceptance testing
+
+3.1 Total Contract Value: $500,000 USD
+
+3.2 Payment Schedule: As specified above. Late payments subject to 1.5% monthly interest.
+
+3.3 Late Payment: Any payment not received within thirty (30) days of the due
+    date shall accrue interest at the rate of 1.5% per month.
+
+4. CONFIDENTIALITY
+
+4.1 Definition: "Confidential Information" means all non-public information
+    disclosed by either party, including but not limited to business plans,
+    technical data, customer lists, and financial information.
+
+4.2 Obligations: Each party agrees to maintain the confidentiality of the other
+    party's Confidential Information and not disclose it to third parties without
+    prior written consent.
+
+4.3 Duration: Confidentiality obligations shall survive termination of this
+    Agreement for a period of five (5) years.
+
+5. INTELLECTUAL PROPERTY
+
+Upon full payment, title to all equipment transfers to Party A. Party B retains all intellectual property rights in the equipment's proprietary software and technology.
+
+6. WARRANTIES AND REPRESENTATIONS
+
+6.1 Party A Warranties: Party A warrants that it has the full right and authority
+    to enter into this Agreement and perform its obligations hereunder.
+
+6.2 Party B Warranties: Party B warrants that:
+a) Equipment is new, unused, and free from defects in materials and workmanship
+b) Equipment meets all FDA regulatory requirements
+c) Equipment will operate according to published specifications
+d) Party B has clear title to the equipment
+
+Warranty period is twelve (12) months from acceptance. Party B shall repair or replace defective equipment at no cost during the warranty period.
+
+7. LIABILITY AND INDEMNIFICATION
+
+Party B's liability for equipment defects is limited to repair or replacement. PARTY B SHALL NOT BE LIABLE FOR CONSEQUENTIAL DAMAGES INCLUDING LOST PROFITS OR BUSINESS INTERRUPTION.
+
+7.1 Limitation of Liability: Party B's total liability shall not exceed the purchase price paid by Party A ($500,000), except for personal injury claims arising from equipment defects.
+
+7.2 Indemnification: Each party agrees to indemnify and hold harmless the other
+    party from any claims, damages, or expenses arising from its breach of this
+    Agreement or negligent acts.
+
+8. TERMINATION
+
+This Agreement may be terminated:
+a) By Party A if equipment is not delivered within sixty (60) days of the scheduled delivery date
+b) By Party A if equipment fails acceptance testing and Party B cannot cure defects within thirty (30) days
+c) By either party if the other materially breaches and fails to cure within thirty (30) days of notice
+
+Upon termination before delivery, deposits shall be refunded minus any reasonable expenses incurred by Party B.
+
+8.1 Termination Notice Period: 30 days
+
+8.2 Effect of Termination: Upon termination, each party shall:
+    a) Return or destroy all Confidential Information
+    b) Pay all outstanding amounts due
+    c) Cooperate in transitioning services (if applicable)
+
+9. FORCE MAJEURE
+
+If performance is delayed by force majeure (including component shortages, shipping delays, or manufacturing disruptions), the delivery date shall be extended by the period of delay. If delay exceeds ninety (90) days, Party A may cancel and receive a full refund of deposits paid.
+
+10. DISPUTE RESOLUTION
+
+10.1 Governing Law: This Agreement shall be governed by the laws of the State of Illinois.
+
+10.2 Dispute Resolution: Any disputes arising under this Agreement shall first be
+     attempted to be resolved through good faith negotiations. If negotiations fail,
+     disputes shall be resolved through binding arbitration under the Healthcare Equipment Arbitration Rules.
+
+10.3 Venue: Exclusive venue for any legal proceedings shall be in Chicago, Illinois.
+
+11. MISCELLANEOUS
+
+11.1 Entire Agreement: This Agreement constitutes the entire agreement between
+     the parties and supersedes all prior agreements and understandings.
+
+11.2 Amendments: This Agreement may only be amended in writing signed by both parties.
+
+11.3 Assignment: Neither party may assign this Agreement without the prior written
+     consent of the other party.
+
+11.4 Notices: All notices under this Agreement shall be in writing and delivered to
+     the addresses set forth above.
+
+11.5 Severability: If any provision is found to be invalid, the remaining provisions
+     shall continue in full force and effect.
+
+================================================================================
+                              SIGNATURES
+================================================================================
+
+PARTY A: MediCare Plus
+
+By: _________________________
+Name: Dr. Diana Martinez
+Title: Chief Medical Officer
+Date: April 1, 2024
+
+
+PARTY B: MedTech Equipment Corp.
+
+By: _________________________
+Name: Robert Lee
+Title: Director of Sales
+Date: April 1, 2024
+
+================================================================================
+                          END OF CONTRACT
+================================================================================

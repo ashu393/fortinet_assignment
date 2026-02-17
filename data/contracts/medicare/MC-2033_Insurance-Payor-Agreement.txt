@@ -1,0 +1,179 @@
+
+================================================================================
+                            CONTRACT AGREEMENT
+================================================================================
+
+Contract ID: MC-2033
+Contract Title: Insurance Payor Agreement
+
+This Agreement ("Agreement") is entered into as of January 1, 2024
+("Effective Date") by and between:
+
+PARTY A: MediCare Plus
+         456 Healthcare Way, Chicago, IL 60601
+
+PARTY B: National Health Insurance Co.
+         777 Insurance Plaza, Hartford, CT 06101
+
+Contact Information:
+Party A Representative: Eve Thompson (e.thompson@medicareplus.com, 555-0202)
+Party B Representative: David Miller (d.miller@nationalhealthins.com, 555-0801)
+
+================================================================================
+                              RECITALS
+================================================================================
+
+WHEREAS, Party A provides healthcare services and Party B operates a health insurance plan, and the parties wish to establish terms for Party A to provide covered services to Party B's members
+
+NOW, THEREFORE, in consideration of the mutual covenants and agreements herein
+contained, the parties agree as follows:
+
+================================================================================
+                         TERMS AND CONDITIONS
+================================================================================
+
+1. SCOPE OF SERVICES/PRODUCTS
+
+Party A shall provide medically necessary healthcare services to Party B's insured members including:
+- Primary care services
+- Specialist consultations
+- Diagnostic testing and imaging
+- Outpatient procedures
+- Emergency care
+- Preventive care services
+
+Party A agrees to be a participating provider in Party B's network.
+
+2. TERM AND DURATION
+
+2.1 Effective Date: This Agreement shall commence on January 1, 2024
+    and shall continue until December 31, 2026 ("Initial Term").
+
+2.2 Renewal: This Agreement automatically renews for successive one-year terms unless either party provides one hundred eighty (180) days written notice of non-renewal. Payment rates may be renegotiated annually with mutual consent.
+
+3. PAYMENT TERMS
+
+Party B shall reimburse Party A for covered services according to the fee schedule attached as Exhibit A. Payment rates are as follows:
+- Primary care visits: 85% of Medicare rates
+- Specialist care: 90% of Medicare rates
+- Diagnostic procedures: 80% of Medicare rates
+- Emergency services: 100% of Medicare rates
+
+Party B shall also pay quality bonus incentives based on performance metrics.
+
+3.1 Total Contract Value: Variable based on claims (estimated $2M annually)
+
+3.2 Payment Schedule: Party B shall pay clean claims within thirty (30) days of receipt. Disputed claims shall be resolved within sixty (60) days.
+
+3.3 Late Payment: Any payment not received within thirty (30) days of the due
+    date shall accrue interest at the rate of 1.5% per month.
+
+4. CONFIDENTIALITY
+
+4.1 Definition: "Confidential Information" means all non-public information
+    disclosed by either party, including but not limited to business plans,
+    technical data, customer lists, and financial information.
+
+4.2 Obligations: Each party agrees to maintain the confidentiality of the other
+    party's Confidential Information and not disclose it to third parties without
+    prior written consent.
+
+4.3 Duration: Confidentiality obligations shall survive termination of this
+    Agreement for a period of five (5) years.
+
+5. INTELLECTUAL PROPERTY
+
+Not applicable to payor agreement.
+
+6. WARRANTIES AND REPRESENTATIONS
+
+6.1 Party A Warranties: Party A warrants that it has the full right and authority
+    to enter into this Agreement and perform its obligations hereunder.
+
+6.2 Party B Warranties: Party A warrants that:
+a) It maintains all required licenses and certifications
+b) It maintains professional liability insurance of at least $3 million per occurrence
+c) It complies with all applicable healthcare regulations
+d) It shall not balance bill Party B's members for covered services
+
+Party B warrants that it shall process and pay clean claims in accordance with state prompt payment laws.
+
+7. LIABILITY AND INDEMNIFICATION
+
+Each party shall indemnify the other from claims arising from its own negligence or breach of this Agreement. Party A is solely responsible for medical malpractice claims. Party B is responsible for coverage determination errors.
+
+7.1 Limitation of Liability: Neither party's liability is capped for claims related to patient care or coverage disputes.
+
+7.2 Indemnification: Each party agrees to indemnify and hold harmless the other
+    party from any claims, damages, or expenses arising from its breach of this
+    Agreement or negligent acts.
+
+8. TERMINATION
+
+Either party may terminate this Agreement:
+a) For convenience by providing one hundred eighty (180) days written notice
+b) For cause with sixty (60) days notice if the other party materially breaches and fails to cure within thirty (30) days
+c) Immediately if the other party loses required licenses or regulatory approval
+d) Immediately if the other party commits fraud or files for bankruptcy
+
+Upon termination, Party A shall continue to provide care for members currently under treatment for up to ninety (90) days (continuity of care period).
+
+8.1 Termination Notice Period: 180 days
+
+8.2 Effect of Termination: Upon termination, each party shall:
+    a) Return or destroy all Confidential Information
+    b) Pay all outstanding amounts due
+    c) Cooperate in transitioning services (if applicable)
+
+9. FORCE MAJEURE
+
+Neither party shall be liable for delays in performance due to force majeure, provided that Party A shall continue to provide emergency care regardless of circumstances. If force majeure continues for more than sixty (60) days, either party may terminate with thirty (30) days notice.
+
+10. DISPUTE RESOLUTION
+
+10.1 Governing Law: This Agreement shall be governed by the laws of the State of Illinois and applicable federal healthcare regulations.
+
+10.2 Dispute Resolution: Any disputes arising under this Agreement shall first be
+     attempted to be resolved through good faith negotiations. If negotiations fail,
+     disputes shall be resolved through good faith negotiations followed by mediation administered by the American Health Lawyers Association, and if unresolved, binding arbitration.
+
+10.3 Venue: Exclusive venue for any legal proceedings shall be in Chicago, Illinois.
+
+11. MISCELLANEOUS
+
+11.1 Entire Agreement: This Agreement constitutes the entire agreement between
+     the parties and supersedes all prior agreements and understandings.
+
+11.2 Amendments: This Agreement may only be amended in writing signed by both parties.
+
+11.3 Assignment: Neither party may assign this Agreement without the prior written
+     consent of the other party.
+
+11.4 Notices: All notices under this Agreement shall be in writing and delivered to
+     the addresses set forth above.
+
+11.5 Severability: If any provision is found to be invalid, the remaining provisions
+     shall continue in full force and effect.
+
+================================================================================
+                              SIGNATURES
+================================================================================
+
+PARTY A: MediCare Plus
+
+By: _________________________
+Name: Eve Thompson
+Title: Chief Financial Officer
+Date: January 1, 2024
+
+
+PARTY B: National Health Insurance Co.
+
+By: _________________________
+Name: David Miller
+Title: Vice President of Provider Networks
+Date: January 1, 2024
+
+================================================================================
+                          END OF CONTRACT
+================================================================================

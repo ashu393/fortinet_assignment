@@ -1,0 +1,158 @@
+
+================================================================================
+                            CONTRACT AGREEMENT
+================================================================================
+
+Contract ID: TC-1042
+Contract Title: Mutual Non-Disclosure Agreement
+
+This Agreement ("Agreement") is entered into as of March 15, 2024
+("Effective Date") by and between:
+
+PARTY A: TechCorp Inc.
+         123 Tech Plaza, San Francisco, CA 94102
+
+PARTY B: Consulting Partners LLC
+         789 Consulting Ave, Austin, TX 78701
+
+Contact Information:
+Party A Representative: Bob Williams (bob@techcorp.com, 555-0102, SSN: 123-45-6789)
+Party B Representative: Sarah Johnson (sarah.j@consultingpartners.com, 555-0301)
+
+================================================================================
+                              RECITALS
+================================================================================
+
+WHEREAS, the parties wish to explore a potential business relationship and need to exchange confidential information for evaluation purposes
+
+NOW, THEREFORE, in consideration of the mutual covenants and agreements herein
+contained, the parties agree as follows:
+
+================================================================================
+                         TERMS AND CONDITIONS
+================================================================================
+
+1. SCOPE OF SERVICES/PRODUCTS
+
+This Agreement covers the mutual exchange of confidential information related to:
+- Product development strategies
+- Technical specifications and architectures
+- Business plans and market analysis
+- Customer data and pricing information
+- Proprietary methodologies and processes
+
+2. TERM AND DURATION
+
+2.1 Effective Date: This Agreement shall commence on March 15, 2024
+    and shall continue until Perpetual (confidentiality obligations survive) ("Initial Term").
+
+2.2 Renewal: This Agreement shall remain in effect perpetually, with confidentiality obligations surviving for five (5) years after any disclosure.
+
+3. PAYMENT TERMS
+
+This is a non-monetary agreement. No payments are required under this NDA.
+
+3.1 Total Contract Value: No monetary consideration
+
+3.2 Payment Schedule: Not applicable.
+
+3.3 Late Payment: Any payment not received within thirty (30) days of the due
+    date shall accrue interest at the rate of 1.5% per month.
+
+4. CONFIDENTIALITY
+
+4.1 Definition: "Confidential Information" means all non-public information
+    disclosed by either party, including but not limited to business plans,
+    technical data, customer lists, and financial information.
+
+4.2 Obligations: Each party agrees to maintain the confidentiality of the other
+    party's Confidential Information and not disclose it to third parties without
+    prior written consent.
+
+4.3 Duration: Confidentiality obligations shall survive termination of this
+    Agreement for a period of five (5) years.
+
+5. INTELLECTUAL PROPERTY
+
+No intellectual property is transferred under this Agreement. Each party retains all rights to its own Confidential Information.
+
+6. WARRANTIES AND REPRESENTATIONS
+
+6.1 Party A Warranties: Party A warrants that it has the full right and authority
+    to enter into this Agreement and perform its obligations hereunder.
+
+6.2 Party B Warranties: Each party warrants that it has the right to disclose the information shared under this Agreement and that such disclosure does not violate any third-party rights.
+
+7. LIABILITY AND INDEMNIFICATION
+
+Each party shall be liable for any unauthorized disclosure or use of the other party's Confidential Information, including all direct damages and reasonable attorney's fees.
+
+7.1 Limitation of Liability: Liability for breach of this NDA shall not be capped, given the sensitive nature of confidential information.
+
+7.2 Indemnification: Each party agrees to indemnify and hold harmless the other
+    party from any claims, damages, or expenses arising from its breach of this
+    Agreement or negligent acts.
+
+8. TERMINATION
+
+Either party may terminate this Agreement by providing thirty (30) days written notice. However, confidentiality obligations shall survive termination for five (5) years.
+
+8.1 Termination Notice Period: 30 days
+
+8.2 Effect of Termination: Upon termination, each party shall:
+    a) Return or destroy all Confidential Information
+    b) Pay all outstanding amounts due
+    c) Cooperate in transitioning services (if applicable)
+
+9. FORCE MAJEURE
+
+Confidentiality obligations shall not be excused by force majeure events. Parties must maintain confidentiality regardless of external circumstances.
+
+10. DISPUTE RESOLUTION
+
+10.1 Governing Law: This Agreement shall be governed by the laws of the State of California.
+
+10.2 Dispute Resolution: Any disputes arising under this Agreement shall first be
+     attempted to be resolved through good faith negotiations. If negotiations fail,
+     disputes shall be resolved through mediation followed by litigation if mediation fails.
+
+10.3 Venue: Exclusive venue for any legal proceedings shall be in San Francisco County, California.
+
+11. MISCELLANEOUS
+
+11.1 Entire Agreement: This Agreement constitutes the entire agreement between
+     the parties and supersedes all prior agreements and understandings.
+
+11.2 Amendments: This Agreement may only be amended in writing signed by both parties.
+
+11.3 Assignment: Neither party may assign this Agreement without the prior written
+     consent of the other party.
+
+11.4 Notices: All notices under this Agreement shall be in writing and delivered to
+     the addresses set forth above.
+
+11.5 Severability: If any provision is found to be invalid, the remaining provisions
+     shall continue in full force and effect.
+
+================================================================================
+                              SIGNATURES
+================================================================================
+
+PARTY A: TechCorp Inc.
+
+By: _________________________
+Name: Bob Williams
+Title: Senior Product Manager
+Date: March 15, 2024
+
+
+PARTY B: Consulting Partners LLC
+
+By: _________________________
+Name: Sarah Johnson
+Title: Managing Partner
+Date: March 15, 2024
+
+================================================================================
+                          END OF CONTRACT
+================================================================================

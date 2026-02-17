@@ -1,0 +1,162 @@
+
+================================================================================
+                            CONTRACT AGREEMENT
+================================================================================
+
+Contract ID: TC-1001
+Contract Title: Cloud Services Agreement
+
+This Agreement ("Agreement") is entered into as of January 1, 2024
+("Effective Date") by and between:
+
+PARTY A: TechCorp Inc.
+         123 Tech Plaza, San Francisco, CA 94102
+
+PARTY B: CloudProvider LLC
+         456 Cloud Street, Seattle, WA 98101
+
+Contact Information:
+Party A Representative: Alice Chen (alice@techcorp.com, 555-0101)
+Party B Representative: John Smith (john.smith@cloudprovider.com, 555-0201)
+
+================================================================================
+                              RECITALS
+================================================================================
+
+WHEREAS, Party A requires cloud infrastructure services and Party B provides such services on a professional basis
+
+NOW, THEREFORE, in consideration of the mutual covenants and agreements herein
+contained, the parties agree as follows:
+
+================================================================================
+                         TERMS AND CONDITIONS
+================================================================================
+
+1. SCOPE OF SERVICES/PRODUCTS
+
+Party B shall provide Party A with cloud computing infrastructure including:
+- Virtual machine instances (up to 50 VMs)
+- 10 TB of storage capacity
+- Content delivery network (CDN) services
+- 99.9% uptime SLA guarantee
+- 24/7 technical support
+- Automated backup services
+
+2. TERM AND DURATION
+
+2.1 Effective Date: This Agreement shall commence on January 1, 2024
+    and shall continue until June 30, 2025 ("Initial Term").
+
+2.2 Renewal: This Agreement shall automatically renew for successive one-year terms unless either party provides written notice of non-renewal at least ninety (90) days prior to the end of the then-current term.
+
+3. PAYMENT TERMS
+
+Party A shall pay Party B $10,000 per month for the services described herein.
+
+3.1 Total Contract Value: $120,000 USD
+
+3.2 Payment Schedule: Payment due on the first day of each month via wire transfer or ACH.
+
+3.3 Late Payment: Any payment not received within thirty (30) days of the due
+    date shall accrue interest at the rate of 1.5% per month.
+
+4. CONFIDENTIALITY
+
+4.1 Definition: "Confidential Information" means all non-public information
+    disclosed by either party, including but not limited to business plans,
+    technical data, customer lists, and financial information.
+
+4.2 Obligations: Each party agrees to maintain the confidentiality of the other
+    party's Confidential Information and not disclose it to third parties without
+    prior written consent.
+
+4.3 Duration: Confidentiality obligations shall survive termination of this
+    Agreement for a period of five (5) years.
+
+5. INTELLECTUAL PROPERTY
+
+All intellectual property rights in the cloud infrastructure and underlying technology shall remain the property of Party B. Party A retains all rights to its data and applications.
+
+6. WARRANTIES AND REPRESENTATIONS
+
+6.1 Party A Warranties: Party A warrants that it has the full right and authority
+    to enter into this Agreement and perform its obligations hereunder.
+
+6.2 Party B Warranties: Party B warrants that the services will be performed in a professional manner consistent with industry standards and will meet the SLA requirements specified in Exhibit A.
+
+7. LIABILITY AND INDEMNIFICATION
+
+EXCEPT FOR BREACHES OF CONFIDENTIALITY OR INTELLECTUAL PROPERTY RIGHTS, NEITHER PARTY SHALL BE LIABLE FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES.
+
+7.1 Limitation of Liability: Party B's total aggregate liability under this Agreement shall not exceed the amounts paid by Party A in the twelve (12) months immediately preceding the event giving rise to liability.
+
+7.2 Indemnification: Each party agrees to indemnify and hold harmless the other
+    party from any claims, damages, or expenses arising from its breach of this
+    Agreement or negligent acts.
+
+8. TERMINATION
+
+Either party may terminate this Agreement:
+a) For convenience by providing ninety (90) days written notice to the other party
+b) Immediately for material breach if the breach is not cured within thirty (30) days of written notice
+c) Immediately if the other party becomes insolvent or files for bankruptcy
+
+8.1 Termination Notice Period: 90 days
+
+8.2 Effect of Termination: Upon termination, each party shall:
+    a) Return or destroy all Confidential Information
+    b) Pay all outstanding amounts due
+    c) Cooperate in transitioning services (if applicable)
+
+9. FORCE MAJEURE
+
+Neither party shall be liable for failure to perform due to causes beyond its reasonable control, including acts of God, war, terrorism, pandemic, government action, natural disasters, or internet failures. The affected party must provide notice within five (5) days and make reasonable efforts to resume performance.
+
+10. DISPUTE RESOLUTION
+
+10.1 Governing Law: This Agreement shall be governed by the laws of the State of California.
+
+10.2 Dispute Resolution: Any disputes arising under this Agreement shall first be
+     attempted to be resolved through good faith negotiations. If negotiations fail,
+     disputes shall be resolved through binding arbitration under the rules of the American Arbitration Association.
+
+10.3 Venue: Exclusive venue for any legal proceedings shall be in San Francisco County, California.
+
+11. MISCELLANEOUS
+
+11.1 Entire Agreement: This Agreement constitutes the entire agreement between
+     the parties and supersedes all prior agreements and understandings.
+
+11.2 Amendments: This Agreement may only be amended in writing signed by both parties.
+
+11.3 Assignment: Neither party may assign this Agreement without the prior written
+     consent of the other party.
+
+11.4 Notices: All notices under this Agreement shall be in writing and delivered to
+     the addresses set forth above.
+
+11.5 Severability: If any provision is found to be invalid, the remaining provisions
+     shall continue in full force and effect.
+
+================================================================================
+                              SIGNATURES
+================================================================================
+
+PARTY A: TechCorp Inc.
+
+By: _________________________
+Name: Alice Chen
+Title: Chief Technology Officer
+Date: January 1, 2024
+
+
+PARTY B: CloudProvider LLC
+
+By: _________________________
+Name: John Smith
+Title: Vice President of Sales
+Date: January 1, 2024
+
+================================================================================
+                          END OF CONTRACT
+================================================================================

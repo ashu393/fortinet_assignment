@@ -1,0 +1,8 @@
+__pycache__/
+.venv/
+.env
+data/app.db
+data/qdrant/
+data/ollama/
+*.log
+.DS_Store
