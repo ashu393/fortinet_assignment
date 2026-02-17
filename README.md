@@ -198,6 +198,30 @@ CHARLIE_TOKEN=$(curl -s -X POST http://localhost:8000/auth/login \
 echo "CHARLIE_TOKEN loaded: " $(echo $CHARLIE_TOKEN | cut -c1-25)"..."
 ```
 
+---
+
+### 3.Viewer RBAC: viewer cannot search
+
+```
+curl -i -s -X POST http://localhost:8000/search/contracts \
+  -H "Authorization: Bearer ${CHARLIE_TOKEN}" \
+  -H "Content-Type: application/json" \
+  -d '{"query":"termination notice", "top_k": 3}'
+```
+#### Expected: 403 with "Viewers cannot search".
+
+---
+
+### 4.Viewer RBAC: viewer cannot query AI
+
+```
+curl -i -s -X POST http://localhost:8000/chat/query \
+  -H "Authorization: Bearer ${CHARLIE_TOKEN}" \
+  -H "Content-Type: application/json" \
+  -d '{"query":"What is the termination notice period?", "top_k": 3}'
+```
+#### Expected: 403 with "Viewers cannot query AI".
+
 
 
 ---
